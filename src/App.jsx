@@ -1,12 +1,13 @@
-import { useState } from "react";
-
+import React from "react";
+import { Toaster } from "react-hot-toast";
 import "./App.css";
-import Home from "./Components/Home";
+import Welcome from "./Components/Welcome";
 
 function App() {
   return (
     <>
-      <Home />
+      <Welcome />
+      <Toaster position="top-center" />
     </>
   );
 }

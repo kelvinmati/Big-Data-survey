@@ -9,6 +9,8 @@ export default {
       },
       colors: {
         ourGreen: "#90d0b1",
+        ourOrange: "#f09874",
+        red: "#e2270d",
       },
     },
   },

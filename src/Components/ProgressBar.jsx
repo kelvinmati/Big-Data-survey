@@ -5,12 +5,11 @@ const ProgressBar = ({ currentStep, totalSteps }) => {
 
   return (
     <div>
-      <p>Question ({`${currentStep} of ${totalSteps}`})</p>
+      <p>Question {`${currentStep} / ${totalSteps}`}</p>
       <div className="w-full  bg-gray-200 rounded-full">
         <div
           className="h-4 bg-orange-400 rounded-full "
           style={{ width: `${progress}%` }}
-          //   className={`h-4 bg-blue-500 rounded-full w-[${progress}%]`}
         ></div>
       </div>
     </div>
